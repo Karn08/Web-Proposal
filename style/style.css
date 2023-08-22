@@ -1,0 +1,322 @@
+/* header */
+header {
+    width: 100%;
+    height: 90vh;
+    background-image: url('/image/banner/home2.jpg'); 
+    background-size: cover;
+    color: white;
+}
+
+.header-content {
+    padding: 80px ;
+}
+
+.header-content h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.header-content h2 {
+    color: orange;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.header-content h1 {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.header-content button {
+    padding: 20px 25px;
+    margin: 12px 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    background: none;
+    transition: all linear 0.3s;
+}
+
+.header-content button:hover {
+    border: 2px solid black;
+    background-color: red;
+    color: white;
+}
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* menu-bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    flex: 1;
+    font-size: 24px;
+}
+
+.logo h1 {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.logo span {
+    color: red;
+    font-size: 40px;
+}
+
+.nav-links {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.profile-cart {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.profile-cart img {
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+/* popular-product */
+.cont {
+    padding-top: 40px;
+    background-color: black;
+
+}
+
+.cont h3{
+    text-align: center;
+    color: orange;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+
+.cont h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.content {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -110px;
+    margin-bottom: -130px;
+}
+
+.product-card {
+    background-color: rgb(16, 16, 16);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: 300px;
+}
+
+.product-name {
+    color: orange;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-price {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+}
+
+.order-button {
+    font-size: 15px;;
+    margin-left: 130px;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: black;
+    color: orange;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: orange;
+    color: rgb(0, 0, 0);
+}
+
+.all-product-button  {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.all-product-button button {
+    
+    width: 30%;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 12px 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    color: orange;
+    background-color: rgb(17, 17, 17);
+    border: 2px solid black;
+}
+
+.all-product-button button:hover {
+    border: 2px solid black;
+    background-color: orange;
+    color: black;
+}
+
+/* about */
+.cont2 {
+    padding-top: 40px;
+    background-color: black;
+
+}
+
+.cont2 h3{
+    text-align: center;
+    color: orange;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+
+.cont2 h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.about-content {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 5px;
+    background-color: black;
+    padding-bottom: 70px;
+}
+
+.about-image {
+    padding-left: 180px;
+    text-align: center;
+    
+}
+
+.about-image img {
+    
+    padding-top: 50px;
+    width: 500px;
+    height: 350px;
+    
+}
+
+.about-text {
+    padding-right: 10px;
+}
+
+.about-text h1 {
+    font-size: 50px;
+    color: orange;
+    padding-top: 25px;
+    padding-bottom: 12px;
+}
+
+.about-text p {
+    font-size: 30px;
+    color: white; ;
+}
+
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    border-top: 0.5px solid white;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.social-icons img {
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.footer-buttons button {
+    margin-top: 10px;
+    border: 1px solid grey;
+    background-color: transparent;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 10px;
+}
