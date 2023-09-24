@@ -1,0 +1,8 @@
+21/08/2023 
+- Web-proposal 
+- sitemap
+- template: home, product, about,contact
+
+24/09/2023 
+- Update template: Login, Registor, Cart, Profile, Edit Profile, History, Product detail
+ 
