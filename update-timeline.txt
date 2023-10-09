@@ -5,4 +5,13 @@
 
 24/09/2023 
 - Update template: Login, Registor, Cart, Profile, Edit Profile, History, Product detail
- 
+
+05/10/2023
+- home, product, productdetail, about, cart page
+- add & delete product 
+- add to cart 
+
+09/10/2023
+- login, register page
+- login & register system
+
